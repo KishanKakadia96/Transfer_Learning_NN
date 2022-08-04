@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 ## edit below variables as per your requirements -
-REPO_NAME = "python_project_template"
+REPO_NAME = "Transfer_Learning_NN"
 AUTHOR_USER_NAME = "kishankakadia96"
 SRC_REPO = "src"
 LIST_OF_REQUIREMENTS = []
@@ -14,7 +14,7 @@ setup(
     name=SRC_REPO,
     version="0.0.1",
     author=AUTHOR_USER_NAME,
-    description="General python project template",
+    description="Transfer Learning in neural network",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
